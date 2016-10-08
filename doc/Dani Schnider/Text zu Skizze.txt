@@ -1,0 +1,97 @@
+-----Original-Nachricht-----
+Von: "Gregor Dürr" <gregor@duerrs.ch>
+An: "Dani Schnider" <Dani.Schnider@trivadis.com>
+Datum: 16.05.2013 14:35
+Betreff: Re[2]: DWH über Alles
+Hallo Dani
+
+Vielen Dank für Deine Einschätzung. Vermutlich ist der Aufwand im Verhältnis zum kommerziellen Nutzen noch zu gering sogar für Unternehmen wie Google. Ich hoffe trotzdem, dass in Zukunft auch wieder weniger "soziale" dafür umso interessantere Systeme Anklang finden werden.
+
+Gruss aus Bern
+Gregor
+
+________________________________________
+-----Original-Nachricht-----
+Von: "Dani Schnider" <Dani.Schnider@trivadis.com>
+An: "Gregor Dürr" <gregor@duerrs.ch>
+Datum: 09.05.2013 17:09
+Betreff: Re: DWH über Alles
+
+Sali Gregor
+
+Da hast Du Dir ja eine grosse Herausforderung vorgenommen! Wenn ich das richtig verstehe, möchtest Du sowas ähnliches wie eine Verschmelzung von Wikipedia mit Google Maps, aufgelistet auf einer Zeitachse, machen. Es gab mal ein Feature names "Google Timeline", das zumindest die Suche auf der Zeitachse unterstützt hat. Wie das funktioniert hat, findest Du hier: http://www.youtube.com/watch?v=9hgUnJBhsnI 
+
+Google hat das Feature vor zwei Jahren eingestampft. Warum weiss ich nicht, aber vermutlich weil es zu komplex war oder zu wenig oft verwendet wurde. Keine Ahnung. Hier findest Du ein paar weitere Infos dazu:
+http://productforums.google.com/forum/#!topic/websearch/ug6L_FMq8vk
+ 
+http://readwrite.com/2011/11/11/google_kills_its_own_timeline_feature
+http://searchenginewatch.com/article/2124563/Googles-Timeline-Search-Option-is-History
+ 
+
+Was es jedoch gibt, ist eine zeitbezogene Büchersuche - immerhin: http://books.google.com/ngrams/ 
+Und in Wikipedia kann man nach Ereignissen an bestimmen Kalendertagen suchen: https://en.wikipedia.org/wiki/List_of_days 
+
+Ein paar weitere Links, die in eine ähnliche Richtung gehen:
+http://www.history-timelines.org.uk/
+http://www.fincher.org/History/WorldBC.shtml
+http://everyhistory.org/
+http://www.timemaps.com/history
+(Der letzte Link entspricht wohl am ehesten dem, was Du Dir vorstellst, allerdings mit einer sehr bescheidenen Anzahl von Ereignissen).
+
+Ganz neu scheint Deine Idee offensichtlich nicht zu sein, aber eine umfassende Lösung, wie Du sie planst, würde wohl sehr aufwendig werden - sowohl die Entwickllungszeit als auch das Datenvolumen).
+
+Ich habe mir mal ein paar Gedanken gemacht, wie man sowas prinzipiell abbilden könnte (siehe mein handgekritzeltes "Kunstwerk" im Anhang).
+•	Den Zeitbezug könnte man sicher noch irgendwie abbilden, allerdings müsste dabei unterschieden werden zwischen Einzelereignissen, die an einem bestimmten Tag, Jahr oder Jahrhundert stattgefunden haben (wie Du ja schon bemerkt hast, gibt es unterschiedliche Granularitäten für die Ereigniszeitpunkte). Zusätzlich muss aber auch die Möglichkeit bestehen, Ereignisse über eine Zeitperiode (von-bis) zu speichern, wobei Start- und Endzeitpunkt auch wieder unterschiedliche Granularitäten haben können. Beispiel: Zweiter Weltkrieg vom 1. September 1939 bis 2. September 1945.
+•	Etwas komplizierter wird es bei der geografischen Lage der Ereignisse. Auch hier kann die Granularität unterschiedlich sein. Ein Ereignis kann an einer bestimmten Adresse (Geburt von Mozart: Getreidegasse 9, A-5020 Salzburg), an einem Ort (Schlacht bei Sempach) oder in einem oder mehreren Ländern stattgefunden haben (Tsunami am 26. Dezember 2004: Indonesien, Sri Lanka, Indien, Thailand, Somalia, ...). Erschwerend kommt dazu, dass sich die Geografie über die Zeit änden kann - das Römische Reich gibt es heute nicht mehr (deshalb der Vermerk "SCD 2" in der Skizze).
+Wie dann die Ereignisse mit Bezügen zu Personen, Dokumenten, Verweisen, Unterereignissen, Quellenangaben, etc. abgebildet werden, habe ich mir nicht im Detail überlegt. Aber vermutlich wird dies noch einiges komplexer werden.
+ 
+
+Ich persönlich erachte die Komplexität eines solchen Vorhabens als viel zu hoch, um es in einem "Freizeit-Projekt" realisieren zu können. Obwohl Deine Idee viele interessante Aspekte hat (sonst hätte ich jetzt nicht ein paar Stunden darüber geforscht), möchte ich mich hier nicht weiter engagieren. Für mich jedenfalls ist das Projekt ein paar Nummern zu gross, und ich habe nicht die Zeit, mich Tausende von Stunden für so etwas zu engagieren. Ich hoffe, Du hast Verständnis dafür und bist mir deswegen nicht böse.
+
+Jedenfalls wünsche ich Dir viel Erfolg und Motivation für das "DWH über alles" und freue mich darauf, wenn Du mal an einem TechEvent-Vortrag über die ersten Ergebnisse berichten wirst :-)
+
+Griessli vom Dani.
+
+
+On 03.05.2013, at 17:09, Gregor Dürr wrote:
+Hallo Dani
+ 
+Kürzlich hatte ich eine Idee: Wie wäre es, im Web eine Applikation zu haben, mit der man sich in den zwei Dimensionen Ort und Zeit frei bewegen könnte, um beliebige Ereignisse zu entdecken? Wenn sämtliche Ereignisse, die in der Welt schon mal passiert sind, in einer DB abgespeichert wären, dann liessen sich damit ungeahnte Zusammenhänge erkennen oder konstruieren. Ungeahnt deshalb, weil man sich in der Regel immer in einen engen Themenkreis begibt, um Ereignisse nachzulesen und dieser enge Blickwinkel blendet natürlich alles andere aus. Konstruieren deshalb, weil es ja nicht verboten ist, Vermutungen zu machen. Jemand kann sagen, dass Wikipedia schon hinreichend ist. Wikipedia konzentriert sich stark auf detaillierte Informationen und ausführliche Beschreibungen mit viel Text und Bildern. All das würde in diesem Fall nicht interessieren (höchstens als Quellenangabe und Referenz zum Weiterlesen) und wäre nur unnötiger Ballast. Ausserdem kann man in Wikipedia nur sehr schlecht Verbindungen unterschiedlicher Themengebiete herstellen. Ich habe noch folgende Website gefunden, die eher in diese Richtung geht, aber mehr nach einem Archiv aussieht mit bescheidenen Suchfunktionen und dünnem Datenbestand: http://www.worldhistory.com
+ 
+ 
+Mir ist natürlich klar, dass so etwas nicht in einem BDS-Projekt abgewickelt werden kann ;-) . Deshalb suche ich nach Leuten, die Lust haben, in der Freizeit an so etwas mitzuarbeiten. Was meinst Du, ist so ein System machbar? Hättest Du Interesse?
+ 
+ 
+Ich könnte mir vorstellen, dass eine solche Applikation folgenden Zielgruppen haben könnte:
+-          - Journalisten
+-          - Schriftsteller
+-          - Biographen
+-          - Historiker
+-          - Soziologen
+-          - Politiker
+-          - Studenten
+-          - Lehrpersonen und Schüler
+-          - Marketingfachleute
+-          - Genealogen
+-          - Interessierte Privatpersonen
+ 
+ 
+Folgende Herausforderungen würde es wohl geben (ich bin mir ziemlich sicher, dass diese Liste nicht vollständig ist ???
+-          - Generisches Datenmodell für Ereignisse und Kennzahlen (Richterskala, Anzahl Tore, …). Ein Erdbeben, ein Krieg, eine Präsidentschaft etc. alles muss mit den gleichen Tabellen abgebildet werden können.
+-          - Ereignisse müssen hierarchisch kategorisiert werden, um Suchfunktionen zu unterstützen, z.B. Erdbeben->Naturkatastrophen->Katastrophen
+-          - Ereignisse sind in einer zeitlichen Periode gültig und an einem oder mehreren Orten.
+-          - Ereignisse können globalen und/oder wiederholenden Charakter haben, z.B. Weihnachten, Jom Kippur, … Solche Ereignisse müssen nur einmal erfasst werden.
+-          - Ereignisse haben Abhängigkeiten untereinander und zu Personen. Z.B. fand die Französische Revolution von 1789 bis 1799 statt. Sie setzt sich aber aus Unterereignissen zusammen, nämlich der 1. Phase von 1789 bis 1791, der zweiten Phase von 1792 bis 1794  und der dritten Phase von 1795 bis 1799, die natürlich ihrerseits wieder aus Unterereignissen bestehen.
+-          - Unterschiedliche Granularität der Zeitdimension. Vor dem Jahr 700 n. Chr. Gibt es im besten Fall noch Jahresangaben. Das Jahr Null gibt es nicht, sondern das Jahr 1 vor und nach Christus. Hierarchie von Erdzeitaltern (siehe https://de.wikipedia.org/wiki/Erdzeitalter)
+-          - Geocoding-Dienste, um einem Ereignis einen oder mehrere raumbezogene Georeferenzen zuzuweisen. Eventuell Erweiterung des irdischen Wertebereichs, wegen Mondlandung, Marsrovern, Raumstation MIR, Supernova.
+-          - Spatial-Funktionen der DB nutzen.
+-          - Visuelle Darstellung von Ereignissen auf einer interaktiven Map, z.B. in dieser Art: http://touchgraph.com/assets/applet/navigator/WordAssociations.php
+ Einer der Kreise könnte z.B. der Arabische Frühling sein. Wenn man in die Mitte des Kreises klickt, kommen weitere Kreise, die mit dem arabischen Frühling zu tun haben, z.B. die Selbstverbrennung des Gemüsehändlers Mohamed Bouazizi in Tunesien, die Flucht von Ben Ali, die Absetzung von Mubarak, das Ende von Gaddafi und so weiter. Jeder Kreis hat an seiner Peripherie weitere kleine Kreise in anderer Farbe, die für ein anderes Themengebiet stehen. Dies würde es ermöglichen kurzfristig die Perspektive zu wechseln, z.B. zum Themengebiet Kommunikation und man würde eventuell entdecken, ob vom Regime das Internet gekappt wurde und dergleichen.
+-          - Die Datendichte (gähnende Leere versus Informationsflut). Ein Kreis wäre umso grösser, je weiter oben in der Hierarchie das Ereignis angesiedelt ist, je näher es ist (geografisch und zeitlich), je öfter es von anderen Usern angeklickt wurde etc.
+-          - Bewirtschaftung durch User (GUI zum Erstellen von Projekten, Mitarbeiter freischalten, Daten freigeben, Importieren und Löschen eigener Daten etc)
+-          - Ich bin der Meinung, dass man Mehrfacherfassungen und unwahre Ereignisse nicht verhindern kann. Mit geeigneten Mitteln liessen sich diese vielleicht Ausblenden, z.B. indem man unglaubwürdige Quellen in der Visualisierung zurückstuft oder ganz unterdrückt.
+-          - Definition einer einheitlichen Schnittstelle zum Importieren von Daten aus Wikipedia und andere Nachschlagewerke, îm Internet frei verfügbare Listen jeglicher Art (Tsunami, Erdbeben, etc.), Twitter für Aktivitäten von Personen.
+
+
+Gruss
+Gregor
