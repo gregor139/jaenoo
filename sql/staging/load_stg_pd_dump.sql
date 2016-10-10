@@ -8,5 +8,5 @@
 -- MacOS
 LOAD DATA LOCAL INFILE '/Users/gregor/jaenoo/data_files/personen/pd_dump.csv' INTO TABLE STAGING.stg_pd_dump FIELDS TERMINATED BY '|';
 
--- WIndows
-LOAD DATA LOCAL INFILE 'E:\\grd\\TTC\\jaenoo\\data_files\\personen\\pd_dump.csv' INTO TABLE STAGING.stg_pd_dump FIELDS TERMINATED BY '|';
+-- Windows
+LOAD DATA LOCAL INFILE 'E:\\grd\\TTC\\jaenoo\\data_files\\persons\\pd_dump.csv' INTO TABLE STAGING.stg_pd_dump FIELDS TERMINATED BY '|';

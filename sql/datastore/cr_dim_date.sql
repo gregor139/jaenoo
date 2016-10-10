@@ -8,8 +8,8 @@ SET @d1 = "2016-12-31";
 SET @date = date_sub(@d0, interval 1 day);
 
 -- set up the time dimension table
-DROP TABLE IF EXISTS STAGING.DIM_DATE;
-CREATE TABLE STAGING.DIM_DATE (
+DROP TABLE IF EXISTS DATASTORE.DIM_DATE;
+CREATE TABLE DATASTORE.DIM_DATE (
 date date DEFAULT NULL,
 id int NOT NULL,
 century smallint DEFAULT NULL,
@@ -26,7 +26,7 @@ PRIMARY KEY (id)
 );
 
 -- Load data
-INSERT INTO STAGING.DIM_DATE
+INSERT INTO DATASTORE.DIM_DATE
 SELECT @date := date_add(@date, interval 1 day) as date,
 # integer ID that allows immediate understanding
 date_format(@date, "%Y%m%d") as id,

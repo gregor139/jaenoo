@@ -1,0 +1,6 @@
+-- jaenoo
+-- Time Machine
+-- Author: Gregor Duerr, Switzerland
+
+DROP DATABASE IF EXISTS DATASTORE;
+CREATE SCHEMA `DATASTORE` DEFAULT CHARACTER SET UTF8 ;
