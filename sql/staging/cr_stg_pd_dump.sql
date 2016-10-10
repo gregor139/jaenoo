@@ -1,9 +1,9 @@
-# jaenoo
-Time Machine
-Author: Gregor Duerr, Switzerland
+-- jaenoo
+-- Time Machine
+-- Author: Gregor Duerr, Switzerland
 
-DROP TABLE IF EXISTS STAGING.stg_personen;
-CREATE TABLE STAGING.stg_personen(
+DROP TABLE IF EXISTS STAGING.stg_pd_dump;
+CREATE TABLE STAGING.stg_pd_dump(
 id BIGINT,
 name1 VARCHAR(500),
 name2 VARCHAR(500),
